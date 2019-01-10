@@ -2,7 +2,7 @@
 
     <br>
 
-Collaborators
+Collaborators xyz
 ===================
 
 Collaborators are additional participants that may be included in a Ticket’s communications.
