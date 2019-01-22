@@ -23,6 +23,11 @@ There are two places where the Help Topic must be selected on New Tickets; the c
 
 **Status:** Must be set to “Active” to be utilized; if disabled, the topic will not appear in the drop down.
 
+  **Active:** Help Topics set to this status will be visible by Agents and/or End-Users when creating tickets on both the Client Portal or internally.
+  **Archived:** The Help Topic is no longer in use and cannot be selected when creating or editing any ticket. Also, if tickets with that Help Topic are reopened via an End-User response it will create a new ticket referencing the original ticket number and subject line but the Help Topic will be the system default.
+  **Disabled:** Help Topics set to this status will not be visible by End-Users or Agents when creating or editing tickets via the Client Portal or internally. Tickets reopened via an End-User reply or an Agent’s change of status will simply reopen with the disabled Help Topic in place.
+
+
 **Type:** If topic is selected as “Private,” it will only be visible when a ticket is created internally by an Agent from the Staff Control Panel (Agent Panel > Tickets > New Ticket).
 
 **Parent Topic:** Topics can be nested together to further streamline the client’s selection of topics. The Parent Topic will show up first in the drop down followed by the topic name. Even though it is nested, the child topic’s settings will override the Parent Topic’s settings.
